@@ -1,0 +1,78 @@
+# ===== DEPENDENCIES =====
+node_modules/
+/.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===== BUILD OUTPUT =====
+dist/
+dist-ssr/
+build/
+*.local
+
+# ===== LOGS =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===== EDITOR & IDE =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+.code-workspace
+
+# ===== OS SPECIFIC =====
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# ===== ENVIRONMENT & SECRETS =====
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+.keys
+
+# ===== LOCAL DATA =====
+local_leaderboard.json
+selectedAvatar
+selectedFrame
+
+# ===== CACHE & TEMP =====
+.cache
+.eslintcache
+.vite/
+.turbo/
+*.tmp
+*.bak
+*.backup
+*~
+.sorced
+
+# ===== SUPABASE =====
+.supabase/
+
+# ===== TESTING =====
+/coverage
+.nyc_output
+
