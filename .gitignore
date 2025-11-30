@@ -75,4 +75,4 @@ selectedFrame
 # ===== TESTING =====
 /coverage
 .nyc_output
-
+/node-modules
